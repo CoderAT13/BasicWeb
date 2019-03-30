@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<!--
+17343147
+Author: Coder.@ 张涵健
+Date: 2018.10.22
+-->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>The Amazing Mouse Maze</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="maze.js" ></script>
+    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+    
+</head>
+<body>
+    <div id="inf">
+        <div id="title" >The Amazing Mouse Maze!</div>
+        <div class="rules">Move Your Mouse over the "S" to begin</div>
+        <div id="status">Welcome To the amazing mouse maze!</div>
+    </div>
+    <div id="maze_block"  onmouseleave="leave(this)">
+        <div id="wall_1" onmouseover="lose(this)"  ></div>
+        <div id="wall_2" onmouseover="lose(this)" ></div>
+        <div id="wall_3" onmouseover="lose(this)" ></div>
+        <div id="wall_4" onmouseover="lose(this)" ></div>
+        <div id="wall_5" onmouseover="lose(this)" ></div>
+        <div id="wall_6" onmouseover="lose(this)" ></div>
+        <div id="wall_7" onmouseover="lose(this)" ></div>
+        <div id="wall_8" onmouseover="lose(this)" ></div>
+        <div id="wall_9" onmouseover="lose(this)" ></div>
+        <div id="S_block" onmouseover="game_begin()">S</div>
+        <div id="E_block" onmouseover="game_end()" >E</div>
+    </div>
+    <div id="ins">The object of this game is to guide the mouse cursor through the start area and get to the end area. Be sure to avoid walls:</div>
+    <div id="wall"></div>
+    <div id="gl">Good Luck!</div>
+</body>
+</html>

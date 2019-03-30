@@ -1,0 +1,40 @@
+doctype html
+html
+    head
+        meta(charset="UTF-8")
+        link(rel='stylesheet' href='style.css')
+        title 注册
+        script(type="text/javascript" src="http://code.jquery.com/jquery-2.2.4.min.js")
+        script(type="text/javascript" src="validator.js")
+        script(type="text/javascript" src="signup.js")
+
+    body
+        h1 Sign Up
+        form(method='post')
+
+            div.username
+                label(for='username') 用户名
+                input(id='username' name='username' placeholder='6～18位英文字母、数字或下划线，英文字母开头' maxlength='18')
+                span.error
+
+            div.sid
+                label(for='sid') 学号
+                input(id='sid' name='sid' placeholder='8位数字，不能以0开头' maxlength='8')
+                span.error
+
+            div.phone
+                label(for='phone') 电话
+                input(id='phone' name='phone' placeholder='11位数字，不能以0开头' maxlength='11')
+                span.error
+
+            div.email
+                label(for='email') 邮箱
+                input(id='email' name='email' placeholder='abc@mail2.sysu.edu.cn')
+                span.error
+
+            div.buttons
+                input.button.reset(type='reset' value='清除')
+                input.button.submit(type='submit' value='提交')
+
+        if error
+            div.error!= error

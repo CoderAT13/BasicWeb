@@ -1,0 +1,137 @@
+body{
+    background: url("http://my.ss.sysu.edu.cn/wiki/download/attachments/7045968/background.png?version=1&modificationDate=1268896312000") fixed;
+    font-size: 8pt;
+    font-family: Verdana;
+    margin:0;
+}
+.header{
+    background: url("http://my.ss.sysu.edu.cn/wiki/download/attachments/7045968/bannerbackground.png?version=1&modificationDate=1268896312000") repeat-x;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    font-size: 24pt;
+    font-weight: bold;
+}
+
+q{
+    font-size: 8pt;
+    font-weight: bold;
+}
+img{
+    margin-right: 5px;
+
+    float: left;
+    clear: both;
+}
+.main_border{
+    position: relative;
+    border: 4px solid gray;
+    width: 800px;
+    margin:0 auto;
+    overflow: hidden;
+    clear: both;
+}
+.pic_theme{
+    float: right;
+    width:250px;
+    background: #A2B964;
+    clear: both;
+}
+.information{
+    position: relative;
+    padding: 10px;
+    font-family: arial;
+    clear: both;
+}
+.grade{
+    position: absolute;
+    width: 550px;
+    top:0;
+    left:0;
+    background: url("http://my.ss.sysu.edu.cn/wiki/download/attachments/7045968/rottenbackground.png?version=1&modificationDate=1268896385000");
+    background-size: 550px 83px;
+    font-size: 48pt;
+    color: red;
+    font-weight: bold;
+    clear: both;
+}
+.grade_inf{
+    font-size: 8pt;
+    color: white;
+    font-weight: normal;
+}
+.comment_block{
+    position: absolute;
+    top: 83px;
+    left: 0;
+    width: 550px;
+    clear: both;
+}
+.comment_one{
+    position: absolute;
+    left: 2%;
+    float: none;
+    width: 47%;
+}
+.comment_two{
+    position: absolute;
+    right: 2%;
+    top: 0;
+    float: none;
+    width: 47%;
+}
+.p_content{
+    position: relative;
+    padding: 8px;
+    border: 2px solid gray;
+    background: #E1D697;
+    font-size: 8pt;
+    font-family: Verdana;
+    margin-top: 3em;
+    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.p_content1{
+    position: relative;
+    padding: 8px;
+    border: 2px solid gray;
+    background: #E1D697;
+    font-size: 8pt;
+    font-family: Verdana;
+}
+.rotten{
+    float: none;
+}
+#page{
+    width: 800px;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: #A2B964;
+    text-align: center;
+    clear: both;
+}
+#page p{
+    margin: 0;
+}
+dt{
+    margin-top: 1em;
+    font-weight: bold;
+}
+.w3c{
+    position:fixed;
+    bottom: 0;
+    right: 0;
+}
+.head_pic{
+    margin:0 auto;
+}
+.comment_style{
+    font-style: italic;
+}

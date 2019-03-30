@@ -1,0 +1,39 @@
+h1{
+    background-color:#F0F0F0;
+    color:#A4A400;
+    font-size:22pt;
+    font-family: Futura;
+    letter-spacing: 0.2em;
+}
+body{
+    background: beige url("image/bg.jpg") fixed;
+    text-align: center;
+}
+p{
+    font-size:30pt;
+    background-color:#F0F0F0;
+}
+#nav_left {
+    width:200px;
+    height: 200px;
+    position:fixed;
+    left:0;
+    top:30%;
+}
+#nav_right {
+    width:200px;
+    height: 200px;
+    position:fixed;
+    top:30%;
+    right:0;
+}
+.bottom{
+    font-size:10px;
+    font-color:gray;
+
+}
+.lin{
+    font-weight:bold;
+    font-size:22pt;
+    font-family:Times New Roman;
+}

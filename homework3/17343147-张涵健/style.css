@@ -1,0 +1,200 @@
+/*辅助线*/
+#at-plus-container, #at-plus-container div{
+
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+#at-plus-container{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 180px;
+    height: 100%;
+}
+
+#bottom-positioner{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+
+#info-bar{
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    bottom: 97px;
+    left: 78px;
+    border-radius: 50%;
+    color: #7E7E7E;
+    transition: all 0.5s;
+    opacity: 0;
+}
+#button:hover #info-bar{
+    position: absolute;
+    bottom: 150px;
+    left: 25px;
+    background: #7E7E7E;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    opacity: 1;
+}
+
+#info-bar ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+#info-bar li{
+    list-style: none;
+    width: 100%;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+
+}
+
+#info-bar li img{
+    vertical-align: middle;
+}
+
+#info-bar li span{
+    margin-left: 8px;
+}
+
+#info-bar li.mine{
+    display: inline-block;
+    width: 50%;
+    color: white;
+    box-sizing: border-box;
+    transition: all 1s;
+}
+#button:hover #info-bar li.mine{
+    display: inline-block;
+    width: 50%;
+    color: #26E79E;
+    box-sizing: border-box;
+}
+
+#info-bar li.comment{
+    font-size: 30px;
+}
+
+#info-bar li.posted{
+    padding-left: 14px;
+
+}
+
+
+
+
+#control-ring-container{
+    position: absolute;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    bottom: 20px;
+    left: 0px;
+    margin: 0;
+}
+
+#control-ring-container li{
+    list-style: none;
+    position: absolute;
+    display: block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background: #686868 center no-repeat;
+    background-size: 18px 18px;
+    margin-top: 60px;
+    margin-left: 35px;
+    transition: all 0.5s;
+    opacity: 0;
+}
+
+#button:hover #control-ring-container li{
+    opacity: 1;
+}
+
+#button:hover #control-ring-container li:nth-child(1){
+    margin-top: 20px;
+    margin-left: -30px;
+    background-image: url('assets/images/nomask.png');
+}
+
+#button:hover #control-ring-container li:nth-child(2){
+    margin-top: 60px;
+    margin-left: -40px;
+    background-image: url('assets/images/history.png');
+}
+
+#button:hover #control-ring-container li:nth-child(3){
+    margin-top: 102px;
+    margin-left: -26px;
+    background-image: url('assets/images/message.png');
+}
+
+#button:hover #control-ring-container li:nth-child(4){
+    margin-top: 129px;
+    margin-left: 12px;
+    background-image: url('assets/images/setting.png');
+}
+
+#button:hover #control-ring-container li:nth-child(5){
+    margin-top: 128px;
+    margin-left: 60px;
+    background-image: url('assets/images/signin.png');
+}
+
+#button:hover #control-ring-container li span.unread{
+    position: absolute;
+    top: -2px;
+    right: -10px;
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+    padding-left: 6px;
+    color: #E0D6DC;
+    box-sizing: border-box;
+}
+
+#button{
+    width: 70px;
+    height: 70px;
+    margin: 75px 55px;
+}
+
+#button .apb{
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    bottom: 97px;
+    left: 78px;
+    border-radius: 50%;
+    background: #989FCF url('assets/images/atplus_white.png') no-repeat center;
+    background-size: 20px 15px;
+    transition: all 0.5s;
+}
+
+#button:hover .apb{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    bottom: 85px;
+    left: 65px;
+    border-radius: 50%;
+    background: #303F9F url('assets/images/atplus_green.png') no-repeat center;
+    background-size: 40px 30px;
+}

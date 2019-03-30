@@ -1,0 +1,216 @@
+/*
+17343147
+Author: Coder.@ 张涵健
+Date: 2018.10.22
+*/
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+    background: url("timg1.png");
+}
+
+#inf{
+    margin:0 auto;
+    text-align: center;
+}
+
+#inf div{
+
+}
+
+#title{
+    background-color: rgba(0,0,0,0.7);
+    color: white;
+    font-family: "Dancing Script", serif;
+    font-size: 40px;
+}
+
+.rules{
+    font-size: 20px;
+    margin: 10px;
+}
+
+#status{
+    font-size: 20px;
+    margin: 10px;
+    height: 31px;
+
+}
+
+
+#maze_block{
+    position: relative;
+
+    width: 600px;
+    height: 400px;
+    background: url("IMG_3224.png");
+    margin: 0 auto;
+}
+
+
+
+
+#wall_1{
+    position: absolute;
+    top: 14%;
+    left: 0;
+    width: 30%;
+    height: 58%;
+    background: gray;
+    border-left: 1px black solid;
+    border-right: 1px black solid;
+    border-bottom: 1px black solid;
+    opacity: 0.8;
+}
+
+#wall_2{
+    position: absolute;
+    top: 14%;
+    right: 0;
+    width: 30%;
+    height: 58%;
+    background: gray;
+    border-left: 1px black solid;
+    border-right: 1px black solid;
+    border-bottom: 1px black solid;
+    opacity: 0.8;
+}
+
+#wall_3{
+    width: 30%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 14%;
+    background: gray;
+    border-left: 1px black solid;
+    border-top: 1px black solid;
+    opacity: 0.8;
+}
+
+#wall_4{
+    width: 30%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 14%;
+    background: gray;
+    border-right: 1px black solid;
+    border-top: 1px black solid;
+    opacity: 0.8;
+}
+
+#wall_5{
+    width: 40%;
+    height: 14%;
+    position: absolute;
+    top: 0;
+    left: 30%;
+    background: gray;
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+    opacity: 0.8;
+}
+
+#wall_6{
+    position: absolute;
+    width: 42%;
+    height: 14%;
+    left: 0;
+    bottom: 0;
+    background: gray;
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+    border-left: 1px black solid;
+    opacity: 0.8;
+}
+
+#wall_7{
+    position: absolute;
+    width: 42%;
+    height: 14%;
+    right: 0;
+    bottom: 0;
+    background: gray;
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+    border-right: 1px black solid;
+    opacity: 0.8;
+}
+
+#wall_8{
+    position: absolute;
+    left: 42%;
+    bottom: 0;
+    width: 16%;
+    height: 14%;
+    background: gray;
+    border-bottom: 1px black solid;
+    opacity: 0.8;
+}
+
+#wall_9{
+    position: absolute;
+    left: 42%;
+    bottom: 14%;
+    width: 16%;
+    height: 58%;
+    background: gray;
+    border-top: 1px black solid;
+    border-right: 1px black solid;
+    border-left: 1px black solid;
+    opacity: 0.8;
+}
+
+#S_block{
+    position: absolute;
+    width: 10%;
+    height: 12%;
+    bottom: 15%;
+    left: 1%;
+    text-align: center;
+    font-size: 30px;
+    background: white;
+}
+
+#E_block{
+    position: absolute;
+    width: 10%;
+    height: 12%;
+    bottom: 15%;
+    right: 1%;
+    text-align: center;
+    font-size: 30px;
+    background: #66FF99;
+}
+
+#ins {
+    position: relative;
+    top: 10px;
+    margin: 0 auto;
+    width: 650px;
+    font-size: 15px;
+}
+
+#wall{
+    position: relative;
+    top: 20px;
+    margin:0 auto;
+    width: 80px;
+    height: 40px;
+    background: gray;
+    border: 1px solid ;
+    opacity: 0.8;
+}
+
+#gl{
+
+    position: relative;
+    text-align: center;
+    top: 40px;
+    right: 300px;
+    font-size: 20px;
+
+}

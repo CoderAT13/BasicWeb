@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+学号：17343147
+姓名：张涵健
+日期：2018/11/5
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Fifteen Puzzles</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="puzzles.js" ></script>
+    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</head>
+<body onload="aload()">
+    <div id="title" >Puzzles Game</div>
+    <div id="choose">
+        <input type="file" id="upload" name="file" onchange="read()" accept="image/png, image/jpeg, image/jpg"/>
+        <button id="confirm" onclick="c_reload()">Confirm</button>
+    </div>
+
+    <div id="puzzle_block" >
+        <!--<img id="src_img" src="1.png" width="500" height="500" />-->
+    </div>
+    <div id="level_choose">
+        <input value="1" name="difficulty" type="radio" onchange="d_change(this)"/>easy
+        <input value="2" name="difficulty" type="radio" onchange="d_change(this)" checked="checked"/>normal
+        <input value="3" name="difficulty" type="radio" onchange="d_change(this)"/>difficult
+    </div>
+    <button id="gameStart" onclick="start(this)">Start</button>
+    <!--<canvas id="imageC" width="125" height="125" ></canvas>-->
+
+
+</body>
+</html>

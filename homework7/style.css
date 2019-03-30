@@ -1,0 +1,109 @@
+/*
+学号：17343147
+姓名：张涵健
+日期：2018/11/5
+*/
+
+body {
+    width: 100%;
+    overflow: auto;
+    background: url("Desert 2.jpg") no-repeat fixed;
+    background-size: cover;
+}
+
+#title {
+    color: white;
+    font-family: "Dancing Script", sans-serif;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+#puzzle_block {
+    width: 500px;
+    height: 520px;
+    margin: 0 auto;
+}
+
+
+#gameStart {
+
+    margin: 0 auto;
+    display: block;
+    font-size: 25px;
+    width: 100px;
+    height: 40px;
+    transition: 0.5s;
+}
+
+#gameStart:hover{
+    position: relative;
+    Right: 1px;
+    Bottom: 1px;
+    margin: 0 auto;
+    display: block;
+    font-size: 25px;
+    width: 100px;
+    height: 40px;
+    box-shadow: 5px 5px 2px #888888;
+}
+
+.imageC {
+    display: block;
+    width: 125px;
+    height: 125px;
+    margin:0;
+    padding: 0;
+    transition: 0.5s;
+}
+
+.imageC:hover {
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 125px;
+    height: 125px;
+    Right: 3px;
+    Bottom: 3px;
+    box-shadow: 5px 5px 2px #888888;
+}
+
+.container{
+    float:left;
+    margin-bottom: 0;
+    padding: 0;
+    width: 125px;
+    height: 125px;
+}
+
+#P15{
+    background: rgba(255,255,255, 1);
+}
+
+#choose{
+    color: white;
+    position: relative;
+    bottom: 10px;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+#upload{
+    width: 150px;
+    display: inline;
+
+}
+
+#confirm{
+    display: inline;
+}
+
+#level_choose{
+    color: white;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
